@@ -69,7 +69,7 @@ export default function Home() {
                 <span className="text-violet-400">でも一人じゃない</span>
               </h1>
               <h3 className="text-2xl font-bold">オンライン自習室Isem</h3>
-              <p className="mt-6 mb-8 text-lg sm:mb-12">
+              <p className="mt-6 mb-8 text-md lg:text-lg sm:mb-12">
                 高校・大学受験生の方々、
                 勉強していて集中力が続かなかったり、効率的な学習法がわからず、不安な気持ちがつのることもあるのではないでしょうか。そんな方々にぜひ、自分に合った学習法で、効率的に勉強して、目標を達成しましょう！
                 {/* <br className="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem */}
@@ -99,7 +99,9 @@ export default function Home() {
       <div className="container mx-auto">
         <section className="m-4 md:m-8 bg-slate-50 text-gray-800">
           <div className="container mx-auto p-4 my-6 space-y-2 text-center">
-            <h2 className="text-5xl font-bold">こんなお悩みありませんか？</h2>
+            <h2 className="lg:text-5xl font-bold">
+              こんなお悩みありませんか？
+            </h2>
             {/* <p className="text-gray-400">Libero minima optio qui</p> */}
           </div>
           <div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -116,10 +118,10 @@ export default function Home() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <h3 className="my-3 text-3xl font-semibold">
+              <h3 className="my-3 text-md lg:text-3xl font-semibold">
                 勉強のモチベーションが維持できない
               </h3>
-              <div className="space-y-1 leading-tight">
+              <div className="space-y-1 leading-tight text-sm">
                 <p>一人だとなかなか勉強が続かない...</p>
                 <p>何を目標にすればいいか分からない...</p>
                 <p>時間をダラダラと消費してしまう...</p>
@@ -138,10 +140,10 @@ export default function Home() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <h3 className="my-3 text-3xl font-semibold">
+              <h3 className="my-3 lg:text-3xl font-semibold">
                 学習の進め方や計画を立てる方法が分からない
               </h3>
-              <div className="space-y-1 leading-tight">
+              <div className="text-sm space-y-1 leading-tight">
                 <p>いま使っている参考書で本当に大丈夫かな...</p>
                 <p>このスケジュールで受験に間に合うのかな...</p>
               </div>
@@ -159,10 +161,10 @@ export default function Home() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <h3 className="my-3 text-3xl font-semibold">
+              <h3 className="my-3 lg:text-3xl font-semibold">
                 難関大学合格に向けた学習法を知りたい
               </h3>
-              <div className="space-y-1 leading-tight">
+              <div className="text-sm space-y-1 leading-tight">
                 <p>難関大学の受験対策に何が必要か分からない...</p>
                 <p>定期テストでは点が取れるけど、模試になるとさっぱり...</p>
               </div>
@@ -181,17 +183,17 @@ export default function Home() {
               className="w-full h-60 sm:h-96 bg-gray-500 object-cover"
             />
             <div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-stone-200">
-              <div className="space-y-2">
-                <p className="inline-block text-2xl font-semibold sm:text-xl">
+              <div className="space-y-2 text-sm">
+                <p className="inline-block font-semibold sm:text-xl lg:text-2xl text-gray-700">
                   オンライン自習室Isemは、目標設定やスケジュール作成、進捗管理、効率的な学習方法のアドバイスに至るまで、生徒一人ひとりの学習を丁寧にサポートします。
                 </p>
-                <p className="inline-block text-2xl font-semibold sm:text-xl py-2">
+                <p className="inline-block font-semibold sm:text-sm lg:text-2xl py-2 text-gray-700">
                   さらに、難関大学出身の講師による指導で、受験に必要な知識と技能を身につけることができます。個別の質問や相談にも迅速に対応し、生徒の理解度を深めるお手伝いをいたします。
                 </p>
               </div>
-              <div className="text-gray-100">
-                {/* <p>Insert the actual text content here...</p> */}
-              </div>
+              {/* <div className="text-gray-100">
+                <p>Insert the actual text content here...</p>
+              </div> */}
             </div>
           </div>
         </div>
@@ -201,19 +203,19 @@ export default function Home() {
         <section className="bg-slate-50 text-gray-100">
           <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
             <div>
-              <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-800">
+              <h2 className="font-bold tracking-tight text-center text-xl lg:text-5xl text-gray-800">
                 学習効果をあげる仕組み
               </h2>
-              <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-800">
+              <p className="max-w-3xl mx-auto mt-4 text-sm lg:text-xl text-center text-gray-800">
                 受講生一人ひとりの目標に合わせた学習管理システム
               </p>
             </div>
             <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
               <div>
-                <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-gray-600">
+                <h3 className="font-bold tracking-tight text-md lg:text-2xl text-gray-600">
                   「オンライン授業でも、先生と直接コミュニケーションできる」
                 </h3>
-                <p className="mt-3 text-lg text-gray-400">
+                <p className="mt-3 text-gray-400 text-sm lg:text-lg">
                   オンラインでも、生徒一人ひとりに講師がしっかりとフォローします。質問や相談はもちろん、授業中の理解度チェックやアドバイスなど、直接的なコミュニケーションが可能です。さらに、目標達成のためのプランニングもサポートします。
                 </p>
                 <div className="mt-12 space-y-12">
@@ -237,10 +239,10 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h4 className="text-lg font-medium leading-6 text-gray-600">
+                      <h4 className="text-md lg:text-lg font-medium leading-6 text-gray-600">
                         目標達成のためのプランニング
                       </h4>
-                      <p className="mt-2 text-gray-400">
+                      <p className="mt-2 text-gray-400 text-sm lg:text-lg">
                         目標設定は、その時点において適切に設定し、都度アップデートすることが大切です。
                         その時点の生徒状況に合わせた、適切な目標設定をおこないます。
                       </p>
@@ -266,10 +268,10 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h4 className="text-lg font-medium leading-6 text-gray-800">
+                      <h4 className="text-md lg:text-lg font-medium leading-6 text-gray-800">
                         課題テストの実施
                       </h4>
-                      <p className="mt-2 text-gray-400">
+                      <p className="mt-2 text-gray-400 text-sm lg:text-lg">
                         週に1回の課題テストにより、学習した知識や理解度を確認することができます。生徒自身がどの程度理解しているかを知ることができ、勉強の方針を立てることができます。
                       </p>
                     </div>
@@ -294,10 +296,10 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="ml-4">
-                      <h4 className="text-lg font-medium leading-6 text-gray-800">
+                      <h4 className="text-md lg:text-lg font-medium leading-6 text-gray-800">
                         学習状況の可視化
                       </h4>
-                      <p className="mt-2 text-gray-400">
+                      <p className="mt-2 text-gray-400 text-sm lg:text-lg">
                         1週間ごとの学習状況をグラフを使用して可視化することで、現在の進み具合が一目でわかります。これlにより、学習のモチベーションが維持しやすくなります。
                       </p>
                     </div>
@@ -315,10 +317,10 @@ export default function Home() {
             <div>
               <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                 <div className="lg:col-start-2">
-                  <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-gray-800">
+                  <h3 className="text-md lg:text-2xl font-bold tracking-tight text-gray-800">
                     充実の質問サービス
                   </h3>
-                  <p className="mt-3 text-lg text-gray-400">
+                  <p className="mt-3 text-sm lg:text-lg text-gray-400">
                     当自習室では、”分からない”を解決する、充実した質問サポートを提供しています。学習者の方々が、迅速かつスマートに学習を進め、困難に直面した場合でも、すぐに解決できるよう、多彩なサービスをご用意しています。
                   </p>
                   <div className="mt-12 space-y-12">
@@ -342,10 +344,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="ml-4">
-                        <h4 className="text-lg font-medium leading-6 text-gray-50">
+                        <h4 className="text-md lg:text-lg font-medium leading-6 text-gray-600">
                           自習室中の質問
                         </h4>
-                        <p className="mt-2 text-gray-400">
+                        <p className="mt-2 text-gray-400 text-sm lg:text-lg">
                           自習室中はzoom内に質問部屋を用意しているので、分からないことがあればすぐに
                           質問することができます。(質問は1回15分の予約制)
                         </p>
@@ -371,10 +373,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="ml-4">
-                        <h4 className="text-lg font-medium leading-6 text-gray-50">
+                        <h4 className="text-md lg:text-lg font-medium leading-6 text-gray-600">
                           チャットでも質問可能
                         </h4>
-                        <p className="mt-2 text-gray-400">
+                        <p className="mt-2 text-gray-400 text-sm lg:text-lg">
                           自習室が休みの時や、時間外の時はチャットでの質問も受け付けています。
                           回答は、数十分〜遅くとも24時間以内に回答するように努めています。
                         </p>
@@ -400,10 +402,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="ml-4">
-                        <h4 className="text-lg font-medium leading-6 text-gray-50">
+                        <h4 className="text-md lg:text-lg font-medium leading-6 text-gray-600">
                           動画・記事によるサポート
                         </h4>
-                        <p className="mt-2 text-gray-400">
+                        <p className="mt-2 text-gray-400 text-sm lg:text-lg">
                           多くの生徒がつまづく問題はサイト内で動画または記事にて回答します。
                         </p>
                       </div>
@@ -427,14 +429,14 @@ export default function Home() {
         <div class=" flex flex-col items-center px-5 pt-48 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
             <div class="w-full mx-auto">
-              <h1 className="text-5xl font-bold leading-none sm:text-5xl tracking-tight text-center">
+              <h1 className="text-xl lg:text-5xl font-bold leading-none sm:text-5xl tracking-tight text-center">
                 続ける大切さ、未来を変える力！
               </h1>
               {/* <h1 className="text-5xl font-bold leading-none sm:text-5xl tracking-tight text-center">
                 続ける大切さを知る。未来を変える力！
               </h1> */}
               {/* <h2>「習慣化」と「習慣頻度」</h2> */}
-              <p className="mt-8 font-semibold">
+              <p className="mt-8 font-semibold text-sm lg:text-xl">
                 学習習慣を身につけることは、人生において極めて重要なスキルの一つです。
                 当オンライン自習室では生徒の習慣化をサポートするための工夫をおこなっています。
               </p>
@@ -465,10 +467,10 @@ export default function Home() {
                   週4回の開講でしっかり習慣化する!
                 </p>
               </div>
-              <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl text-gray-800">
+              <h5 className="mb-3 font-extrabold leading-none sm:text-4xl lg:text-3xl text-gray-800">
                 自習室は週4回開講
               </h5>
-              <p className="mb-5 text-gray-800">
+              <p className="mb-5 text-gray-800 text-sm lg:text-lg">
                 <span className="font-bold">
                   習慣化には、週4日以上の頻度が望ましいとされています。
                 </span>{" "}
@@ -500,10 +502,10 @@ export default function Home() {
                   講師と共におこなう目標設定
                 </p>
               </div>
-              <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl text-gray-800">
+              <h5 className="mb-3 font-extrabold leading-none sm:text-4xl lg:text-3xl text-gray-800">
                 適切な目標設定
               </h5>
-              <p className="mb-5 text-gray-800">
+              <p className="mb-5 text-gray-800 text-sm lg:text-lg">
                 <span className="font-bold">習慣化</span>{" "}
                 一般に習慣化に必要な日数は、目標が簡単なものほど早く、難しいものほど遅くなりますが、2ヶ月程度と言われています。そして、習慣化するためには高頻度で取り組んでいくことが大切です。
               </p>
@@ -549,10 +551,10 @@ export default function Home() {
                   習慣化の力
                 </p>
               </div>
-              <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl text-gray-800">
+              <h5 className="mb-3 font-extrabold leading-none text-gray-800 sm:text-4xl lg:text-3xl">
                 習慣化のメリット
               </h5>
-              <p className="mb-5 text-gray-800">
+              <p className="mb-5 text-gray-800 text-sm lg:text-lg">
                 <span className="font-bold">習慣化</span>{" "}
                 一つの習慣を身につけることができると、他の習慣を身につける確率も高くなると言われています。実際に、一つの習慣を身につけた人は、平均して2.5個の新しい習慣を身につけることができると報告されています。
               </p>
@@ -589,10 +591,10 @@ export default function Home() {
             <path d="M415.409,154.914l-2.194-48.054L372.7,80.933,346.768,40.414l-48.055-2.2L256,16.093,213.287,38.219l-48.055,2.2L139.3,80.933,98.785,106.86l-2.194,48.054L74.464,197.628l22.127,42.715,2.2,48.053L139.3,314.323l25.928,40.52,48.055,2.195L256,379.164l42.713-22.126,48.055-2.195,25.928-40.52L413.214,288.4l2.195-48.053,22.127-42.715Zm-31.646,76.949L382,270.377l-32.475,20.78-20.78,32.475-38.515,1.76L256,343.125l-34.234-17.733-38.515-1.76-20.78-32.475L130,270.377l-1.759-38.514L110.5,197.628,128.237,163.4,130,124.88,162.471,104.1l20.78-32.474,38.515-1.76L256,52.132l34.234,17.733,38.515,1.76,20.78,32.474L382,124.88l1.759,38.515L401.5,197.628Z"></path>
           </svg>
           <div className="px-6 py-2 text-2xl font-semibold text-center sm:font-bold sm:text-3xl md:text-xl lg:max-w-2xl xl:max-w-4xl text-gray-800">
-            <p className="px-6 py-2 text-2xl font-semibold text-center sm:font-bold sm:text-2xl md:text-4xl lg:max-w-2xl xl:max-w-4xl text-gray-800">
+            <p className="px-6 py-2 text-2xl font-semibold text-center sm:font-bold sm:text-xl md:text-4xl lg:max-w-2xl xl:max-w-4xl text-gray-800 text-xl lg:text-5xl">
               学習効果だけでなく、自己管理能力も向上
             </p>
-            <p className="py-4">
+            <p className="py-4 text-sm lg:text-xl">
               当オンライン自習室は、自習室としての役割だけでなく、生徒たちが自己管理能力や時間管理能力、そして集中力を身につけることをサポートしています。
             </p>
           </div>
@@ -629,7 +631,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  <p className="text-xl font-semibold sm:text-base">
+                  <p className="text-md font-semibold sm:text-base">
                     その日の目標を設定し、講師と共有！
                   </p>
                   <p className="text-sm text-gray-700">
@@ -667,7 +669,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  <p className="text-xl font-semibold sm:text-base">
+                  <p className="text-md font-semibold sm:text-base">
                     その日におこなった内容を講師に報告！
                   </p>
                   <p className="text-sm text-gray-700">
@@ -705,7 +707,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  <p className="text-xl font-semibold sm:text-base">
+                  <p className="text-md font-semibold sm:text-base">
                     その週に達成したことをグラフで確認！
                   </p>
                   <p className="text-sm text-gray-700">
@@ -718,10 +720,13 @@ export default function Home() {
         </div>
 
         <div className="container flex flex-col items-center p-4 mx-auto space-y-6 md:p-8">
-          <div className="px-6 py-2 text-2xl font-semibold text-center sm:font-bold sm:text-3xl md:text-xl lg:max-w-2xl xl:max-w-4xl text-gray-800 ">
+          <div className="px-6 py-2 text-sm font-semibold text-center sm:font-bold sm:text-xl md:text-xl lg:max-w-2xl xl:max-w-4xl text-gray-800 ">
             <p className="py-2">
-              オンライン自習時間中は原則、生徒の手元が見える状態で学習を進めていきます。生徒の様子をスタッフが見守り、サポートします。また、課題テストの提出期限もあるため、計画的に学習を進めることが求められます。これらの環境のもと、生徒たちは自己管理能力や時間管理能力、そして集中力を養い、勉強の成果を上げることができるのです。
+              オンライン自習時間中は原則、生徒の手元が見える状態で学習を進めていきます。生徒の様子をスタッフが見守り、サポートします。
             </p>
+            {/* <p className="py-2">
+              オンライン自習時間中は原則、生徒の手元が見える状態で学習を進めていきます。生徒の様子をスタッフが見守り、サポートします。また、課題テストの提出期限もあるため、計画的に学習を進めることが求められます。これらの環境のもと、生徒たちは自己管理能力や時間管理能力、そして集中力を養い、勉強の成果を上げることができるのです。
+            </p> */}
           </div>
 
           <div className="container flex flex-col justify-center p-4 mx-auto">
@@ -812,11 +817,11 @@ export default function Home() {
         <div className="container px-6 py-12 mx-auto">
           <div className="grid items-center gap-4 xl:grid-cols-5">
             <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-              <h2 className="text-4xl font-bold">生徒質問例</h2>
-              <h2 className="text-4xl font-bold">
+              <h2 className="text-xl lg:text-4xl font-bold">生徒質問例</h2>
+              <h2 className="text-xl before:lg:text-4xl font-bold">
                 納得いくまでとことん質問できる
               </h2>
-              <p className="text-gray-400">
+              <p className="text-gray-400 text-sm">
                 どんなに熱心に勉強していても、分からない問題にぶつかることはあります。そんなときこそ、講師の存在が役立ちます。あなたの疑問を解決するために講師が最大限のサポートをいたします。分からないことがあるときは、ただ放っておかずに質問してみましょう。質の高い回答が得られ、あなたの学びにさらなる光が注がれます
               </p>
             </div>
